@@ -5,6 +5,5 @@
  *     struct ListNode *next;
  * };
  */
-void deleteNode(struct ListNode* node) {
-    *node=*node->next;
+void deleteNode(struct ListNode* node) {*node=*node->next;
     }
